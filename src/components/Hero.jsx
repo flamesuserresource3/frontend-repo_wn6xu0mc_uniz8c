@@ -1,5 +1,5 @@
 import Spline from '@splinetool/react-spline';
-import { Rocket, Calendar, Zap, Sparkles, PartyPopper } from 'lucide-react';
+import { Rocket, Calendar, Zap, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Hero() {
@@ -8,7 +8,7 @@ export default function Hero() {
       {/* 3D Spline background */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/ezRAY9QD27kiJcur/scene.splinecode"
+          scene="https://prod.spline.design/8nsoLg1te84JZcE9/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
@@ -57,7 +57,7 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.3 }}
           className="mt-8 flex flex-col sm:flex-row items-center gap-3"
         >
-          <a href="#waitlist" className="inline-flex items-center gap-2 rounded-lg bg-black text-white px-5 py-3 text-sm font-semibold shadow hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-black/50">
+          <a href="#pricing" className="inline-flex items-center gap-2 rounded-lg bg-black text-white px-5 py-3 text-sm font-semibold shadow hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-black/50">
             <Rocket className="h-4 w-4" />
             Join the waitlist
           </a>
@@ -75,7 +75,7 @@ export default function Hero() {
           transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
         >
           <div className="flex items-center gap-2 rounded-xl bg-white/80 backdrop-blur px-3 py-2 shadow border border-gray-200">
-            <PartyPopper className="h-4 w-4 text-pink-500" />
+            <Sparkles className="h-4 w-4 text-pink-500" />
             <span className="text-xs font-medium text-gray-700">Festive posts, handled</span>
           </div>
         </motion.div>

@@ -1,7 +1,7 @@
 import Hero from './components/Hero';
 import Features from './components/Features';
-import SocialProof from './components/SocialProof';
-import WaitlistCTA from './components/WaitlistCTA';
+import Testimonials from './components/Testimonials';
+import Pricing from './components/Pricing';
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
       <main className="snap-y snap-mandatory overflow-x-hidden">
         <section className="snap-start"><Hero /></section>
         <section className="snap-start"><Features /></section>
-        <section className="snap-start"><SocialProof /></section>
-        <section className="snap-start"><WaitlistCTA /></section>
+        <section className="snap-start"><Testimonials /></section>
+        <section className="snap-start"><Pricing /></section>
       </main>
     </div>
   );
